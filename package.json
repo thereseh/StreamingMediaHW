@@ -1,0 +1,30 @@
+{
+  "name": "streamingmediahw",
+  "version": "1.0.0",
+  "engines": {
+    "node": "7.4.0",
+    "npm": "4.0.5"
+  },
+  "description": "homework assignment",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src",
+    "test": "echo \"No Tests\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thereseh/StreamingMediaHW.git"
+  },
+  "author": "Therese Henriksson",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/thereseh/StreamingMediaHW/issues"
+  },
+  "homepage": "https://github.com/thereseh/StreamingMediaHW#readme",
+  "devDependencies": {
+    "eslint": "^3.14.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
